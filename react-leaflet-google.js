@@ -6,7 +6,7 @@
     else if(typeof exports === 'object')
         exports["ReactLeaflet"] = factory(require("react"), require("react-leaflet"));
     else
-        root["ReactLeaflet"] = factory(root["React"], root["ReactLeaflet"]);
+        root["ReactLeafletGoogle"] = factory(root["React"], root["ReactLeaflet"]);
 })(this, function(__WEBPACK_EXTERNAL_MODULE_2__, __WEBPACK_EXTERNAL_MODULE_3__) {
 return /******/ (function(modules) { // webpackBootstrap
 /******/    // The module cache
